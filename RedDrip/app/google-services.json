@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "328806031204",
+    "project_id": "reddriprgm",
+    "storage_bucket": "reddriprgm.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:328806031204:android:a0033bd7d1eb65e0342471",
+        "android_client_info": {
+          "package_name": "com.example.reddrip"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "328806031204-558re91qob78slvflf5u8nnp2b159nqe.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.reddrip",
+            "certificate_hash": "89d6701f289ca4ea6e122e2796878158099753a4"
+          }
+        },
+        {
+          "client_id": "328806031204-2i6j8lvnblivf58hitpq63okv9qo4up9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAb8_wZnG4-j2GDvCWUFqLvBxCy77Re-lc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "328806031204-2i6j8lvnblivf58hitpq63okv9qo4up9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

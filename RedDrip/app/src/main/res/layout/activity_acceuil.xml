@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+
+       <LinearLayout
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal"
+           >
+           <Button
+               android:id="@+id/btnProfile"
+               android:layout_width="71dp"
+               android:layout_height="38dp"
+               android:layout_marginLeft="15dp"
+               android:layout_marginTop="10dp"
+               android:background="@drawable/user"
+               android:paddingLeft="10dp"
+               android:paddingRight="10dp"
+               android:textAllCaps="false" />
+
+           <Button
+               android:id="@+id/btndonner"
+               android:layout_width="73dp"
+               android:layout_height="40dp"
+               android:layout_marginLeft="15dp"
+               android:layout_marginTop="10dp"
+               android:layout_marginRight="15dp"
+               android:background="@drawable/add_annonce"
+               android:paddingLeft="10dp"
+               android:paddingRight="10dp"
+               android:textAllCaps="false" />
+
+
+           <Button
+               android:id="@+id/deconnexion"
+               android:layout_width="73dp"
+               android:layout_height="50dp"
+               android:layout_marginLeft="15dp"
+               android:layout_marginTop="10dp"
+               android:background="@drawable/logout"
+               android:paddingLeft="10dp"
+               android:paddingRight="10dp"
+               android:textAllCaps="false" />
+       </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_list_accueil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"/>
+
+    </LinearLayout>
+</ScrollView>
